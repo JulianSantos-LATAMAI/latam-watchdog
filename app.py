@@ -294,7 +294,7 @@ st.set_page_config(page_title="LATAM Trade Auditor", page_icon="📦", layout="w
 
 # Sidebar Configuration
 with st.sidebar:
-    st.header("🌍 Language / Idioma / Língua")
+    st.header("🌍 Language / Idioma")
     language = st.selectbox(
         "Select Language",
         options=list(TRANSLATIONS.keys()),
