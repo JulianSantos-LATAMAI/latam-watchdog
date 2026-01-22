@@ -46,7 +46,7 @@ COUNTRY_RULES = {
         "tax_id_pattern": r'\b\d{2}-\d{7}\b',
         "tax_id_name": "EIN",
         "required_fields": ["EIN" , "Incoterm", "HTS Code"],
-        "currency: "USD"
+        "currency": "USD"
     }
 }
 
