@@ -41,7 +41,12 @@ COUNTRY_RULES = {
         "tax_id_name": "NIF",
         "required_fields": ["NIF", "Incoterm", "HS Code"],
         "currency": "EUR"
-    }
+    },
+    "United States of America": {
+        "tax_id_pattern": r'\b\d{2}-\d{7}\b',
+        "tax_id_name": "EIN",
+        "required_fields": ["EIN" , "Incoterm", "HTS Code"],
+        "currency: "USD"
 }
 
 # Valid Incoterms (2020)
