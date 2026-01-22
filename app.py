@@ -47,6 +47,7 @@ COUNTRY_RULES = {
         "tax_id_name": "EIN",
         "required_fields": ["EIN" , "Incoterm", "HTS Code"],
         "currency: "USD"
+    }
 }
 
 # Valid Incoterms (2020)
